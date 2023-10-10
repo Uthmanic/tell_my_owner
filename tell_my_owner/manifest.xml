@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="tellmyowner-978267">
+ <names>
+  <name lang="en_US">Tell_my_owner</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Using this application, your robot will be able to recall its owner's name whenever asked.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Tell my owner’s name</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">Running this makes me tell my owner’s name.</description>
+   </descriptions>
+   <triggerSentences>
+    <sentence lang="en_US">Who is your owner?</sentence>
+    <sentence lang="en_US">Whose are you?</sentence>
+    <sentence lang="en_US">Who is your human?</sentence>
+    <sentence lang="en_US">Who is your boss?</sentence>
+    <sentence lang="en_US">Tell your owner</sentence>
+    <sentence lang="en_US">Tell me your owner</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="get_name_activity">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
